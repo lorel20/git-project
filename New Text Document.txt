@@ -41,4 +41,4 @@ CREATE TABLE Groupe (
     name VARCHAR(255) NOT NULL UNIQUE,
     code_eleve INT,
     FOREIGN KEY (code_eleve) REFERENCES Eleve(code)
-);
+);create 
